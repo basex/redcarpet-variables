@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Redcarpet::Variables::VERSION
 
-  gem.add_dependency 'redcarpet', '~> 2.0'
+  gem.add_dependency 'redcarpet', '~> 3.0'
 
   gem.add_development_dependency 'rspec'
 end
